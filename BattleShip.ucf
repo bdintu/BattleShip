@@ -20,11 +20,11 @@ NET "MN[0]" LOC = P95;
 
 ////////////////////////////////////
 
-NET "JOY_A[4]" LOC = P117;		//K5-5
-NET "JOY_A[3]" LOC = P118;		//K5-4
-NET "JOY_A[2]" LOC = P119;		//K5-3
-NET "JOY_A[1]" LOC = P120;		//K5-2
-NET "JOY_A[0]" LOC = P121;		//K5-1
+NET "JOY_A[4]" LOC = P117;		//K5-5 CENTER
+NET "JOY_A[3]" LOC = P118;		//K5-4 RIGHT
+NET "JOY_A[2]" LOC = P119;		//K5-3 DOWN
+NET "JOY_A[1]" LOC = P120;		//K5-2 LEFT
+NET "JOY_A[0]" LOC = P121;		//K5-1 UP
 
 NET "STATE_A[1]" LOC = P21;	//K1-2
 NET "STATE_A[0]" LOC = P23;	//K1-1
@@ -44,11 +44,11 @@ NET "POSY_A[0]" LOC = P10;		//K2-6
 
 ////////////////////////////////////
 
-NET "JOY_B[4]" LOC = P102;		//K6-5
-NET "JOY_B[3]" LOC = P104;		//K6-4
-NET "JOY_B[2]" LOC = P105;		//K6-3
-NET "JOY_B[1]" LOC = P111;		//K6-2
-NET "JOY_B[0]" LOC = P112;		//K6-1
+NET "JOY_B[4]" LOC = P102;		//K6-5 CENTER
+NET "JOY_B[3]" LOC = P104;		//K6-4 RIGHT
+NET "JOY_B[2]" LOC = P105;		//K6-3 DOWN
+NET "JOY_B[1]" LOC = P111;		//K6-2 LEFT
+NET "JOY_B[0]" LOC = P112;		//K6-1 UP
 
 NET "STATE_B[1]" LOC = P142;	//K3-2
 NET "STATE_B[0]" LOC = P1;		//K3-1
