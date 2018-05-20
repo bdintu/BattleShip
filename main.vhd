@@ -6,7 +6,7 @@ entity BattleShip is
 	Port(	A, B	: in  STD_LOGIC_VECTOR (2 downto 0);
 			C		: out  STD_LOGIC_VECTOR (6 downto 0)
 	);
-end exvf2;
+end BattleShip;
 
 architecture Behavioral of BattleShip is
 begin
