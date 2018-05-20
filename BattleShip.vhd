@@ -9,9 +9,14 @@ entity BattleShip is
 end BattleShip;
 
 architecture Behavioral of BattleShip is
+	signal temp : std_logic_vector (7 downto 0) := "00000001";
 begin
-
-	K1 <= "1111111";
-	K2 <= "1111111";
+	
+	send : process is
+	begin
+		temp <= temp(6 downto 0) & temp(7);
+		K1 <= temp;
+		wait for 10 ms;
+	end process send;
 
 end Behavioral;
