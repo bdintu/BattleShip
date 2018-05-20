@@ -1,0 +1,23 @@
+NET "K1[7]" LOC = P5;
+NET "K1[6]" LOC = P7;
+NET "K1[5]" LOC = P9;
+NET "K1[4]" LOC = P11;
+NET "K1[3]" LOC = P14;
+NET "K1[2]" LOC = P16;
+NET "K1[1]" LOC = P21;
+NET "K1[0]" LOC = P23;
+
+NET "K2[7]" LOC = P6;
+NET "K2[6]" LOC = P8;
+NET "K2[5]" LOC = P10;
+NET "K2[4]" LOC = P12;
+NET "K2[3]" LOC = P15;
+NET "K2[2]" LOC = P17;
+NET "K2[1]" LOC = P22;
+NET "K2[0]" LOC = P24;
+
+NET "WASD[4]" LOC = P114;
+NET "WASD[3]" LOC = P115;
+NET "WASD[2]" LOC = P116;
+NET "WASD[1]" LOC = P117;
+NET "WASD[0]" LOC = P121;

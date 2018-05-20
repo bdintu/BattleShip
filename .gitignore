@@ -21,7 +21,6 @@
 *.rbb
 *.rbd
 *.stx
-*.svf
 *.syr
 *.twr
 *.twx
@@ -46,8 +45,6 @@
 
 # iMPACT generated files
 _impactbatch.log
-_impact.cmd
-_impact.log
 impact.xsl
 impact_impact.xwbt
 ise_impact.cmd
@@ -65,6 +62,7 @@ webtalk_pn.xml
 
 # planAhead generated files
 *.debug
+*.log
 *.tcl
 
 # generated folders
