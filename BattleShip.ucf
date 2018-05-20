@@ -1,23 +1,67 @@
-NET "K1[7]" LOC = P5;
-NET "K1[6]" LOC = P7;
-NET "K1[5]" LOC = P9;
-NET "K1[4]" LOC = P11;
-NET "K1[3]" LOC = P14;
-NET "K1[2]" LOC = P16;
-NET "K1[1]" LOC = P21;
-NET "K1[0]" LOC = P23;
+NET "CLK" LOC = P123;
 
-NET "K2[7]" LOC = P6;
-NET "K2[6]" LOC = P8;
-NET "K2[5]" LOC = P10;
-NET "K2[4]" LOC = P12;
-NET "K2[3]" LOC = P15;
-NET "K2[2]" LOC = P17;
-NET "K2[1]" LOC = P22;
-NET "K2[0]" LOC = P24;
+NET "L[7]" LOC = P67;
+NET "L[6]" LOC = P74;
+NET "L[5]" LOC = P75;
+NET "L[4]" LOC = P78;
+NET "L[3]" LOC = P79;
+NET "L[2]" LOC = P80;
+NET "L[1]" LOC = P81;
+NET "L[0]" LOC = P82;
 
-NET "WASD[4]" LOC = P114;
-NET "WASD[3]" LOC = P115;
-NET "WASD[2]" LOC = P116;
-NET "WASD[1]" LOC = P117;
-NET "WASD[0]" LOC = P121;
+NET "MN[7]" LOC = P84;
+NET "MN[6]" LOC = P85;
+NET "MN[5]" LOC = P87;
+NET "MN[4]" LOC = P88;
+NET "MN[3]" LOC = P92;
+NET "MN[2]" LOC = P93;
+NET "MN[1]" LOC = P94;
+NET "MN[0]" LOC = P95;
+
+////////////////////////////////////
+
+NET "JOY_A[4]" LOC = P117;		//K5-5
+NET "JOY_A[3]" LOC = P118;		//K5-4
+NET "JOY_A[2]" LOC = P119;		//K5-3
+NET "JOY_A[1]" LOC = P120;		//K5-2
+NET "JOY_A[0]" LOC = P121;		//K5-1
+
+NET "STATE_A[1]" LOC = P21;	//K1-2
+NET "STATE_A[0]" LOC = P23;	//K1-1
+
+NET "STATUS_A[0]" LOC = P5;	//K1-8
+NET "STATUS_A[0]" LOC = P7;	//K1-7
+NET "STATUS_A[0]" LOC = P9;	//K1-6
+NET "STATUS_A[0]" LOC = P11;	//K1-5
+
+NET "POSX_A[2]" LOC = P17;		//K2-3
+NET "POSX_A[1]" LOC = P22;		//K2-2
+NET "POSX_A[0]" LOC = P24;		//K2-1
+
+NET "POSY_A[2]" LOC = P6;		//K2-8
+NET "POSY_A[1]" LOC = P8;		//K2-7
+NET "POSY_A[0]" LOC = P10;		//K2-6
+
+////////////////////////////////////
+
+NET "JOY_B[4]" LOC = P102;		//K6-5
+NET "JOY_B[3]" LOC = P104;		//K6-4
+NET "JOY_B[2]" LOC = P105;		//K6-3
+NET "JOY_B[1]" LOC = P111;		//K6-2
+NET "JOY_B[0]" LOC = P112;		//K6-1
+
+NET "STATE_B[1]" LOC = P142;	//K3-2
+NET "STATE_B[0]" LOC = P1;		//K3-1
+
+NET "STATUS_B[0]" LOC = P124;	//K3-8
+NET "STATUS_B[0]" LOC = P127;	//K3-7
+NET "STATUS_B[0]" LOC = P132;	//K3-6
+NET "STATUS_B[0]" LOC = P134;	//K3-5
+
+NET "POSX_B[2]" LOC = P141;	//K4-3
+NET "POSX_B[1]" LOC = P143;	//K4-2
+NET "POSX_B[0]" LOC = P2;		//K4-1
+
+NET "POSY_B[2]" LOC = P126;	//K4-8
+NET "POSY_B[1]" LOC = P131;	//K4-7
+NET "POSY_B[0]" LOC = P133;	//K4-6
